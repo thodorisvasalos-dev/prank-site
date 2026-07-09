@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: wheat;
+}
+
+input{
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+}
+
+Button{
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color:coral;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
