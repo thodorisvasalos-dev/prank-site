@@ -10,24 +10,24 @@ if(name === "Στέλιος"){
     greetElement.innerText = "Στέλιο, έχω μια απορία:";
 
   
-        mediaElement.innerHTML = '<img src = "assets/whyareyougay.jpg">'
+        mediaElement.innerHTML = '<img src = "./assets/whyareyougay.jpg">'
 
 }else if(name === "Μαρία"){
     greetElement.innerText = "Δυστυχώς, η αλήθεια δεν κρύβεται...";
 
 
-        mediaElement.innerHTML = '<img src = "assets/adopted.jpg">'
+        mediaElement.innerHTML = '<img src = "./assets/adopted.jpg">'
 
 }
 else if (name === "Μαίρη"){
     greetElement.innerText = "Βρήκα μια σπάνια φωτογραφία σου.";
 
   
-        mediaElement.innerHTML = '<img src = "assets/clown.jpg">'
+        mediaElement.innerHTML = '<img src = "./assets/clown.jpg">'
 
 }
 else{
-    mediaElement.innerHTML = '<img src = "assets/waitaminute.jpg">'
+    mediaElement.innerHTML = '<img src = "./assets/waitaminute.jpg">'
 }
 
 //Activate the back Button to go back to start
